@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
+import pikle
 
 # Load the trained Linear Regression model
 model = joblib.load('Charges_prediction.pkl')
